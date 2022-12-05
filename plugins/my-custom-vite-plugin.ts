@@ -9,6 +9,7 @@ const globalName = '__value__';
 const build = async () => {
   const result = await vite({
     configFile: false,
+    mode: 'custom',
     build: {
       write: false,
       lib: {
